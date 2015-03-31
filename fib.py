@@ -1,5 +1,7 @@
 hash_map = {}
 
+# dynamic programming
+
 def fib(n):
 	key = str(n)
 	if hash_map.has_key(key):

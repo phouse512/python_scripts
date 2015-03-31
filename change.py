@@ -28,3 +28,6 @@ def change_possibilities(amount, denominations):
 	return possible
 
 print change_possibilities(10,[1,2,3])
+
+
+print change_possibilities(100, range(1,100))
